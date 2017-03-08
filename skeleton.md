@@ -1,0 +1,2 @@
+What happens to the layout when you resize the screen to less than 550 px. How do you think that works?
+- Instead of multiple divs sitting in a column, they stack on top of each other. It works this way because media query in CSS file sets the width of the divs to be 100% when the min-width of the screen is 550px. This means when the screen width gets smaller than 550px, each div takes up the full width of the screen.
